@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   background-color: #001233;
   margin: 0;
   display: flex;
@@ -63,7 +62,8 @@ div.password-section {
 .password-container {
   background-color: #002855;
   color: #ffffff;
-  width: 600px;
+  min-width: 400px;
+  max-width: 600px;
   height: 40px;
   padding: 10px;
   border-radius: 5px;
