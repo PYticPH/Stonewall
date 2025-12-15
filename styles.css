@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background-color: #001233;
   margin: 0;
   display: flex;
