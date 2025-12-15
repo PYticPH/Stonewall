@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Stonewall</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="header-section">
+      <h1>Stonewall</h1>
+      <h2>Your guess-proof password generator</h2>
+      <p class="text">
+        <span>Strong...</span>
+        <span>Secure...</span>
+        <span>Safe</span>
+      </p>
+    </div>
+    <div class="password-section">
+      <div class="passwords">
+        <span 
+          id="password-one-el" 
+          class="password-container"
+          aria-label="Generated password one">
+        </span>
+        <span 
+          id="password-two-el" 
+          class="password-container"
+          aria-label="Generated password two">
+        </span>
+      </div>
+      <div class="password-details">
+        <p id="password-one-info" class="password-info">
+          <span 
+            class="difficulty" 
+            id="difficulty-one-el"
+            aria-label="Difficulty of generated password one">Difficulty: 
+          </span>
+          <span 
+            class="length" 
+            id="length-one-el"
+            aria-label="Length of generated password one">Length: 
+          </span>
+        </p>
+        <p id="password-two-info" class="password-info">
+          <span 
+            class="difficulty" 
+            id="difficulty-two-el"
+            arial-lbel="Difficulty of generated password two">Difficulty: 
+          </span>
+          <span 
+            class="length" 
+            id="length-two-el"
+            aria-label="Length of generated password two">Length: 
+          </span>
+        </p>
+      </div>
+      <button id="generate-el" class="generate" onclick="getPassword()">Generate</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
