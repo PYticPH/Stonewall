@@ -62,8 +62,7 @@ div.password-section {
 .password-container {
   background-color: #002855;
   color: #ffffff;
-  min-width: 400px;
-  max-width: 600px;
+  width: 400px;
   height: 40px;
   padding: 10px;
   border-radius: 5px;
@@ -93,7 +92,7 @@ div.password-section {
 }
 
 .length, .difficulty {
-  width: 200px;
+  width: 160px;
   color: #ffffff;
   background-color: #013d83;
   padding: 10px;
